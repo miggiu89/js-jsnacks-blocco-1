@@ -5,7 +5,7 @@ Calcola quanto pesano tutte le zucchine.*/
 
 
 
-
+//creazione array con specifiche
 
 
 var zucchine = [
@@ -61,6 +61,7 @@ var zucchine = [
     },
 ];
 
+//calcolo del peso di tutti gli elementi nell'array
 
 var somma = 0;
 
