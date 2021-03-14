@@ -69,4 +69,20 @@ for ( var i = 0; i < zucchine.length; i++ ){
     var zucchina = zucchine[i].peso;
     somma += zucchina;
 }
+
+//aggiungo una zucchina
+
+var nuovaZucchina = {
+    'varietà' : 'l',
+        'peso' : 3,
+        'lunghezza' : 20
+}
+
+zucchine.push(nuovaZucchina)
+
+for ( var i = 0; i < zucchine.length; i++ ){
+    var zucchina = zucchine[i].peso;
+    somma += zucchina;
+}
+
 console.log('peso totale ' + somma);
